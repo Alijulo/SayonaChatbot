@@ -1,3 +1,20 @@
-torch-2.3.1
-nltk
-flask-3.0.3
+
+Flask==3.0.0
+Flask-WTF==1.0.0 # For handling forms in Flask
+python-dotenv==0.19.1  # For loading environment variables from a .env file
+gunicorn==20.1.0  # WSGI HTTP Server for production deployments
+
+# PyTorch and Transformers
+torch==1.10.2  # PyTorch for deep learning
+transformers==4.12.0  # Library from Hugging Face for NLP models like BERT
+
+# Optional: NLP and Language Processing
+nltk==3.6.3  # Natural Language Toolkit for NLP tasks (optional)
+spacy==3.1.3  # Advanced NLP library for various NLP tasks (optional)
+
+# Websockets (for real-time interactions with the bot, if needed)
+python-socketio==5.8.0
+eventlet==0.32.0  # Required for SocketIO with eventlet
+
+# Optional: Database if needed
+SQLAlchemy==1.4.31  # SQL toolkit and Object-Relational Mapping (ORM) for Python
