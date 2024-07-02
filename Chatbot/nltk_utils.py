@@ -8,7 +8,7 @@ def tokenize(sentence):
     return nltk.tokenize.word_tokenize(sentence)
 
 def lemmantize(word):
-    return lemmantizer.lemmatize(word)
+    return lemmantizer.lemmatize(word.lower())
 
 def bag_of_words(tokenized_sentence,all_words):
     tokenized_sentence=[lemmantize(w) for w in tokenized_sentence]
