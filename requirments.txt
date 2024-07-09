@@ -1,5 +1,13 @@
 
 Flask==3.0.0
+flask-socketio==5.3.6
+torch==1.10.2  # PyTorch for deep learning
+websocket
+websocket-client
+numpy<2
+gevent-websocket
+
+
 Flask-WTF==1.0.0 # For handling forms in Flask
 python-dotenv==0.19.1  # For loading environment variables from a .env file
 gunicorn==20.1.0  # WSGI HTTP Server for production deployments
